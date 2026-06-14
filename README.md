@@ -35,7 +35,7 @@ BELLAM NIKITHA (AI&DS)
 BALARAJU SUDHAVEENA (AI&DS)
 🔗 Project Links
 🌐 Source Code Repository
-https://github.com/
+https://github.com/streamlit_app.py
 🚀 Live Demo
 https://YOUR_STREAMLIT_APP_LINK
 🎬 Project Demonstration Video
