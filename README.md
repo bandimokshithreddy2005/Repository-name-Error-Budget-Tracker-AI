@@ -1,172 +1,196 @@
-🚨 Error Budget Tracker with AI
+# 🚨 Error Budget Tracker with AI
+
 <p align="center">
-🤖 AI-Powered Site Reliability Engineering (SRE) Dashboard
-
-Monitor Reliability • Track Error Budgets • Analyze Failures • Generate AI Reports
-
+  <b>AI-Powered Site Reliability Engineering (SRE) Dashboard</b><br>
+  Monitor Reliability • Track Error Budgets • Analyze Failures • Generate AI Reports
+  <h3 align="center">AI-Powered Site Reliability Engineering (SRE) Dashboard</h3>
+  <p align="center">
+    Monitor Reliability • Track Error Budgets • Analyze Failures • Generate AI Reports
+  </p>
 </p>
-📌 Project Overview
 
-Error Budget Tracker with AI is an intelligent Site Reliability Engineering (SRE) Dashboard built using Python, Streamlit, Pandas, Matplotlib, and Google Gemini AI.
+---
 
-The platform enables DevOps and SRE teams to monitor service reliability, calculate error budgets, analyze burn rates, visualize system health, and generate AI-powered operational reports from uploaded log files.
+## 📌 Project Overview
+## 📌 Overview
 
-The dashboard transforms raw service logs into actionable insights, helping engineering teams proactively manage reliability and maintain Service Level Objectives (SLOs).
+Error Budget Tracker with AI is a Streamlit-based dashboard developed for Site Reliability Engineering (SRE) monitoring and reliability analysis.
+**Error Budget Tracker with AI** is a Streamlit-based dashboard designed for Site Reliability Engineering (SRE) monitoring and reliability analysis.
 
-✨ Features
-📂 Upload CSV Log Files
-📊 Success & Failure Rate Calculation
-🎯 Error Budget Monitoring
-🔥 Burn Rate Analysis
-📈 Budget Utilization Tracking
-🔍 Service-wise Filtering
-📉 Failure Analysis by Service
-🥧 Success vs Failure Visualization
-📊 Interactive Dashboard
-🤖 AI-Powered SRE Report Generation
-⚡ Real-Time Reliability Insights
-👥 Team Information
-🚀 Team Name
-Team Squid
-👨‍💻 Team Members
-BANDI MOKSHITH REDDY (AI&ML)
-BAVIGADDA YAMUNA LAKSHMI CSE(AI)
-BELLAM NIKITHA (AI&DS)
-BALARAJU SUDHAVEENA (AI&DS)
-🔗 Project Links
-🌐 Source Code Repository
-https://github.com/streamlit_app.py
-🚀 Live Demo
-https://YOUR_STREAMLIT_APP_LINK
-🎬 Project Demonstration Video
-https://YOUR_YOUTUBE_VIDEO_LINK
-🛠️ Technology Stack
-Technology	Purpose
-Python	Backend Processing
-Streamlit	Interactive Dashboard
-Pandas	Data Processing
-Matplotlib	Data Visualization
-Google Gemini AI	AI Report Generation
-📂 Project Structure
-ErrorBudgetTracker/
+The application enables teams to monitor service health, calculate error budgets, visualize system reliability metrics, and generate AI-powered SRE reports using Google Gemini AI.
+The application helps engineering teams monitor service health, calculate error budgets, visualize reliability metrics, and generate AI-powered operational reports using Google Gemini AI.
 
-│── streamlit_app.py
-│── logs.csv
-│── monthly_logs.csv
-│── requirements.txt
-│── README.md
+---
+
+## ✨ Key Features
+## ✨ Features
+
+✅ CSV Log Upload & Processing
+
+✅ Success Rate & Failure Rate Calculation
+
+✅ Error Budget Monitoring
+
+✅ Burn Rate Analysis
+
+✅ Service-wise Filtering
+
+✅ Interactive Dashboard
+
+✅ Pie Chart Visualization
+
+✅ Failure Analysis by Service
+
+✅ Budget Utilization Trend Analysis
+
+✅ AI-Powered SRE Report Generation
+
+✅ Real-Time Reliability Insights
+* 📂 CSV Log Upload & Processing
+* 📊 Success Rate & Failure Rate Calculation
+* 🎯 Error Budget Monitoring
+* 🔥 Burn Rate Analysis
+* 🔍 Service-wise Filtering
+* 📈 Interactive Data Visualization
+* 🥧 Success vs Failure Pie Chart
+* 📉 Service-wise Failure Analysis
+* 📋 Budget Utilization Trend Tracking
+* 🤖 AI-Powered SRE Report Generation
+* ⚡ Real-Time Reliability Insights
+
+---
+
+@@ -47,7 +39,7 @@ The application enables teams to monitor service health, calculate error budgets
+
+* Upload CSV log files
+* View processed request data
+* Status highlighting for Success and Failed requests
+* Highlight Success and Failed requests
+
+### 📊 Metrics Dashboard
+
+@@ -62,31 +54,33 @@ The application enables teams to monitor service health, calculate error budgets
+* Service-wise Failure Analysis
+* Budget Utilization Trend
+
+### 🧠 AI Report Generator
+### 🤖 AI Report Generator
+
+Generate professional SRE reports using Gemini AI including:
+Generate professional SRE reports including:
+
+* Executive Summary
+* Risk Assessment
+* Burn Rate Analysis
+* Recommendations
+* Reliability Assessment
+* Risk Analysis
+* Burn Rate Evaluation
+* Actionable Recommendations
+
+---
+
+## 🛠️ Technologies Used
+## 🛠️ Technology Stack
+
+| Technology | Purpose              |
+| ---------- | -------------------- |
+| Python     | Backend Logic        |
+| Streamlit  | Web Dashboard        |
+| Pandas     | Data Processing      |
+| Matplotlib | Data Visualization   |
+| Gemini AI  | AI Report Generation |
+| Technology       | Usage                 |
+| ---------------- | --------------------- |
+| Python           | Backend Processing    |
+| Streamlit        | Interactive Dashboard |
+| Pandas           | Data Analysis         |
+| Matplotlib       | Data Visualization    |
+| Google Gemini AI | AI Report Generation  |
+
+---
+
+## 📂 Project Structure
+
+```text
+Error-Budget-Tracker-AI/
 │
-├── outputs/
-│     ├── dashboard.png
-│     ├── report.png
-│
-└── screenshots/
-      ├── upload.png
-      ├── metrics.png
-      ├── charts.png
-      ├── budget.png
-      ├── ai_report.png
-🚀 Installation
+├── README.md
+@@ -104,6 +98,9 @@ Error-Budget-Tracker-AI/
+   ├── dashboard.png
+   ├── ai_report.png
+   └── ai_report.md
+```
 
-Clone the repository
+---
 
-git clone https://github.com/YOUR_GITHUB_REPOSITORY
+## 🚀 Installation
 
-Move into project directory
-
-cd ErrorBudgetTracker
-
-Install dependencies
-
+@@ -119,36 +116,34 @@ git clone https://github.com/YOUR_USERNAME/Error-Budget-Tracker-AI.git
 pip install -r requirements.txt
+```
 
-Run Streamlit
+### Run Application
+### Run the Application
 
+```bash
 streamlit run streamlit_app.py
-📊 Dashboard Workflow
-CSV Logs
-      │
-      ▼
-Upload CSV
-      │
-      ▼
-Process Logs
-      │
-      ▼
-Calculate Error Budget
-      │
-      ▼
-Visual Analytics
-      │
-      ▼
-Gemini AI Analysis
-      │
-      ▼
-Generate SRE Report
-📸 Project Screenshots
-🏠 Upload CSV Logs
+```
 
-(Add Screenshot Here)
+---
 
-![Upload Logs](screenshots/upload.png)
-📊 Metrics Dashboard
+## 📸 Project Screenshots
+## 📸 Screenshots
 
-(Add Screenshot Here)
+### Dashboard Preview
 
-![Metrics Dashboard](screenshots/metrics.png)
-📈 Visual Insights
+```md
+![Dashboard](output/dashboard.png)
+```
 
-(Add Screenshot Here)
+### AI Report Generation
 
-![Visual Insights](screenshots/charts.png)
-🔥 Budget Utilization Trend
+```md
+![AI Report](output/ai_report.png)
+```
 
-(Add Screenshot Here)
+---
 
-![Budget Trend](screenshots/budget.png)
-🤖 AI SRE Report
+## 📊 Sample Metrics
+## 📊 Sample Reliability Metrics
 
-(Add Screenshot Here)
+* Success Rate: 99.2%
+* Error Rate: 0.8%
+* Burn Rate: 0.8
+* Remaining Error Budget: 20%
+| Metric                 | Value |
+| ---------------------- | ----- |
+| Success Rate           | 99.2% |
+| Error Rate             | 0.8%  |
+| Burn Rate              | 0.8   |
+| Remaining Error Budget | 20%   |
 
-![AI Report](screenshots/ai_report.png)
-📊 Sample Metrics
-Metric	Value
-Total Requests	210
-Success Rate	70%
-Failure Rate	30%
-Budget Used	100%
-🤖 AI Report Includes
-✅ Executive Summary
-✅ Reliability Assessment
-✅ Error Budget Analysis
-✅ Burn Rate Evaluation
-✅ Risk Assessment
-✅ AI Recommendations
-✅ Service Health Insights
-✅ Future Reliability Suggestions
-🎯 Use Cases
-Site Reliability Engineering (SRE)
-DevOps Monitoring
-Error Budget Tracking
-Service Reliability Analysis
-Incident Review
-Burn Rate Forecasting
-AI-Based Reliability Reporting
-📚 Future Enhancements
-📈 Predictive Failure Detection
-☁️ Cloud Deployment Support
-📊 Live Monitoring Dashboard
-📩 Email Report Generation
-📱 Mobile Responsive Dashboard
-🤖 Multi-LLM Support
-🔔 Alert Notification System
-⭐ Why This Project?
+---
 
-Error Budget Tracker with AI simplifies Service Reliability Monitoring by combining interactive dashboards, error budget analytics, and AI-generated SRE reports into a single platform, enabling engineering teams to make faster and smarter operational decisions.
+@@ -160,8 +155,20 @@ streamlit run streamlit_app.py
+* Incident Prediction
+* Advanced Analytics Dashboard
+* Multi-Service Monitoring
+* Automated Reliability Recommendations
 
-❤️ Built By
-🚀 Team Squid
+---
 
-AI-Powered Site Reliability Engineering Dashboard
+## 📚 Documentation
 
-Python • Streamlit • Pandas • Matplotlib • Google Gemini AI
+* README.md
+* prompts.md
+* AI_USAGE_NOTE.md
+* LLM_EXAMPLES.md
+* tests/test_basic.py
+
+---
+
+### ⭐ Support
+
+⭐ If you found this project useful, consider giving it a Star on GitHub!
+If you found this project useful, consider giving it a **Star ⭐** on GitHub. 
