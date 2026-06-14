@@ -8,7 +8,6 @@
 </p>
 
 ---
-
 ## 👥 Team Details
 
 ### 🧑‍💻 Team Name: **Team Squid**
@@ -49,35 +48,41 @@ The application helps engineering teams monitor service health, calculate error 
 ## 🖥️ Dashboard Modules
 
 ### 📄 Log Data Viewer
-* Upload CSV log files  
-* View processed request data  
-* Highlight Success and Failed requests  
+
+* Upload CSV log files
+* View processed request data
+* Highlight Success and Failed requests
+
 
 ### 📊 Metrics Dashboard
-* Total Requests  
-* Success Rate  
-* Failure Rate  
-* Budget Utilization  
+
+* Total Requests
+* Success Rate
+* Failure Rate
+* Budget Utilization
 
 ### 📈 Visual Insights
-* Success vs Failure Pie Chart  
-* Service-wise Failure Analysis  
-* Budget Utilization Trend  
+
+* Success vs Failure Pie Chart
+* Service-wise Failure Analysis
+* Budget Utilization Trend
 
 ### 🤖 AI Report Generator
+
 Generate professional SRE reports including:
-* Executive Summary  
-* Reliability Assessment  
-* Risk Analysis  
-* Burn Rate Evaluation  
-* Actionable Recommendations  
+
+* Executive Summary
+* Reliability Assessment
+* Risk Analysis
+* Burn Rate Evaluation
+* Actionable Recommendations
 
 ---
 
 ## 🛠️ Technology Stack
 
 | Technology       | Usage                 |
-|----------------|----------------------|
+| ---------------- | --------------------- |
 | Python           | Backend Processing    |
 | Streamlit        | Interactive Dashboard |
 | Pandas           | Data Analysis         |
@@ -106,3 +111,77 @@ Error-Budget-Tracker-AI/
     ├── dashboard.png
     ├── ai_report.png
     └── ai_report.md
+```
+
+---
+
+## 🚀 Installation
+
+### Clone Repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/Error-Budget-Tracker-AI.git
+```
+
+### Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Run the Application
+
+```bash
+streamlit run streamlit_app.py
+```
+
+---
+
+
+
+### Dashboard Preview
+
+http://localhost:8501/
+
+### AI Report Generation
+
+![AI Report](output/ai_report.png)
+
+---
+
+## 📊 Sample Reliability Metrics
+
+| Metric                 | Value |
+| ---------------------- | ----- |
+| Success Rate           | 99.2% |
+| Error Rate             | 0.8%  |
+| Burn Rate              | 0.8   |
+| Remaining Error Budget | 20%   |
+
+---
+
+## 🔮 Future Enhancements
+
+* SLA Breach Prediction using Machine Learning
+* Real-Time Monitoring
+* Email Alert System
+* Incident Prediction
+* Advanced Analytics Dashboard
+* Multi-Service Monitoring
+* Automated Reliability Recommendations
+
+---
+
+## 📚 Documentation
+
+* README.md
+* prompts.md
+* AI_USAGE_NOTE.md
+* LLM_EXAMPLES.md
+* tests/test_basic.py
+
+---
+
+### ⭐ Support
+
+If you found this project useful, consider giving it a **Star ⭐** on GitHub.
