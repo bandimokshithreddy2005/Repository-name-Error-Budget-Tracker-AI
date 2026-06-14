@@ -143,9 +143,9 @@ streamlit run streamlit_app.py
 
 http://localhost:8501/
 
-### AI Report Generation
+### DEMO VIDEO LINK
 
-![AI Report](output/ai_report.png)
+"C:\Users\MOKSHITH REDDY\Desktop\ErrorBudgetTracker\DEMO VIDEO\DEMO VIDEO.mp4"
 
 ---
 
