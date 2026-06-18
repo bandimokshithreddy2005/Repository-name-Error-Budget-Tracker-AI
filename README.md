@@ -55,6 +55,65 @@ The dashboard enables engineering teams to:
 * ⚡ Real-Time Reliability Insights
 
 ---
+🏗️ Project Architecture
+
+The Error Budget Tracker with AI follows a simple data-processing pipeline that analyzes uploaded log files, calculates reliability metrics, visualizes the results, and generates an AI-powered SRE report.
+
+                    +----------------------+
+                    |   User Uploads CSV   |
+                    |   (Service Logs)     |
+                    +----------+-----------+
+                               |
+                               v
+                    +----------------------+
+                    |  Streamlit Frontend  |
+                    |  File Upload Module  |
+                    +----------+-----------+
+                               |
+                               v
+                    +----------------------+
+                    | Pandas Data Processing|
+                    | Read & Filter CSV Data|
+                    +----------+-----------+
+                               |
+                               v
+                    +----------------------+
+                    | Metrics Calculation  |
+                    |----------------------|
+                    | • Total Requests     |
+                    | • Success Rate       |
+                    | • Failure Rate       |
+                    | • Error Rate         |
+                    | • Burn Rate          |
+                    | • Budget Used        |
+                    | • Remaining Budget   |
+                    +----------+-----------+
+                               |
+                +--------------+--------------+
+                |                             |
+                v                             v
+     +----------------------+      +----------------------+
+     | Visualization Module |      | AI Report Generator  |
+     |----------------------|      |----------------------|
+     | • Pie Chart          |      | Google Gemini AI     |
+     | • Bar Chart          |      | Summary              |
+     | • Budget Trend Graph |      | Risk Level           |
+     +----------+-----------+      | Recommendation       |
+                |                  +----------+-----------+
+                |                             |
+                +-------------+---------------+
+                              |
+                              v
+                 +---------------------------+
+                 | Streamlit Dashboard Output|
+                 |---------------------------|
+                 | • Metrics Cards           |
+                 | • Charts                  |
+                 | • AI SRE Report           |
+                 | • System Health Status    |
+                 +---------------------------+
+---
+
 
 # 🖥️ Dashboard Modules
 
